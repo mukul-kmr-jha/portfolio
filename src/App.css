@@ -36,6 +36,10 @@
   background: #cc4a5c;
   z-index: 10;
   cursor: pointer;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
 }
 
 .links-container a:before {
