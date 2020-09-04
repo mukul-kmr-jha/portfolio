@@ -9,37 +9,39 @@
 }
 
 .main-container {
-  padding: 100px 30px;
+  padding: 6rem 1.2rem;
 }
 
 .main-container h1 {
-  font-size: 7rem;
+  font-size: 7.5rem;
   font-weight: 200;
   opacity: 0;
   animation-delay: 1s;
   animation: fadeInUp 2s ease-in-out 0s forwards;
 }
 
+.main-container h1 span {
+  font-size: 7.5rem;
+}
+
 .main-container span {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: cadetblue;
   font-weight: 900;
 }
 
 .links-container a {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 6rem;
+  height: 6rem;
   margin: 10px;
   border-radius: 50%;
   position: relative;
   background: #cc4a5c;
   z-index: 10;
   cursor: pointer;
-  text-indent: 100%;
+  text-indent:-9999px;
   white-space: nowrap;
-  overflow: hidden;
-
 }
 
 .links-container a:before {
@@ -55,7 +57,7 @@
 }
 
 .links-container a:hover:before {
-  animation: fadeOut 0.7s ease-in-out;
+  animation: fadeOut 1s ease-in-out;
 }
 
 .links-container a:hover {

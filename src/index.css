@@ -12,3 +12,19 @@ body {
   background-image: url("public/background.jpg");
   background-size: cover;
 }
+
+html {
+  font-size:62.5%; /* 10px */
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  html {
+    font-size: 31.25%;
+  }
+}
